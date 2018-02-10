@@ -18,6 +18,7 @@
 **.vscode
 **.idea
 **.idea_modules/
+**docs
 
 **.log
 **npm-debug.log*
