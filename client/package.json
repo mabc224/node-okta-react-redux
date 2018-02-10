@@ -1,6 +1,6 @@
 {
   "name": "okta-app",
-  "proxy": " https://damp-thicket-88805.herokuapp.com/",
+  "proxy": "https://damp-thicket-88805.herokuapp.com/",
   "homepage": "https://mabc224.github.io/node-okta-react-redux",
   "version": "0.1.0",
   "private": true,
