@@ -29,7 +29,7 @@ const auth = new Auth({
     issuer: config.issuer,
     client_id: config.client_id,
     redirect_uri: config.redirect_uri,
-    onAuthRequired: ({history}) => history.push('/login')
+    onAuthRequired: ({history}) => history.push('/node-okta-react-redux/login')
 });
 
 ReactDOM.render(

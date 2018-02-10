@@ -19,11 +19,11 @@ export default class App extends Component {
                 <main role="main">
                     <div className="container">
                         <main>
-                            <Route path="/" exact={true} component={HomePage} />
+                            <Route path="/node-okta-react-redux" exact={true} component={HomePage} />
                             <Route path="/implicit/callback" component={ImplicitCallback} />
-                            <Route path="/login" render={() => <LoginPage baseUrl={config.url} />} />
-                            <Route path="/register" component={RegistrationForm} />
-                            <SecureRoute path="/profile" component={ProfilePage} />
+                            <Route path="/node-okta-react-redux/login" render={() => <LoginPage baseUrl={config.url} />} />
+                            <Route path="/node-okta-react-redux/register" component={RegistrationForm} />
+                            <SecureRoute path="/node-okta-react-redux/profile" component={ProfilePage} />
                         </main>
                     </div>
                 </main>
