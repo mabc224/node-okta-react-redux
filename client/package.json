@@ -1,6 +1,6 @@
 {
   "name": "okta-app",
-  "proxy": "https://damp-thicket-88805.herokuapp.com",
+  "proxy": "http://localhost:3000",
   "version": "0.1.0",
   "private": true,
   "author": "Arsalan Bilal <mabc224@gmail.com>",
