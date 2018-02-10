@@ -1,5 +1,6 @@
 {
   "name": "server",
+  "homepage": " https://damp-thicket-88805.herokuapp.com/api",
   "version": "0.0.1",
   "private": true,
   "main": "bin/www",
