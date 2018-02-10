@@ -1,8 +1,10 @@
 {
   "name": "okta-app",
-  "proxy": "http://localhost:3001",
+  "proxy": "https://damp-thicket-88805.herokuapp.com",
   "version": "0.1.0",
   "private": true,
+  "author": "Arsalan Bilal <mabc224@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@okta/okta-auth-js": "^1.11.0",
     "@okta/okta-react": "0.0.12",

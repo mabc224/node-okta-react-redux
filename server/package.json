@@ -1,10 +1,13 @@
 {
   "name": "server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
+  "main": "bin/www",
   "scripts": {
     "start": "node ./bin/www"
   },
+  "author": "Arsalan Bilal <mabc224@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@okta/okta-sdk-nodejs": "^1.1.0",
     "body-parser": "~1.18.2",
@@ -13,5 +16,18 @@
     "express": "~4.15.5",
     "jade": "~1.11.0",
     "morgan": "~1.9.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mabc224/node-okta-react-redux"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "keywords": [
+    "node",
+    "okta",
+    "express",
+    "api"
+  ]
 }
