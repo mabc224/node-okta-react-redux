@@ -52,6 +52,13 @@ npm run start
 
 `http://localhost:3001`
 
+##### Heroku deployment without the app being at the repo root (in a sub folder)
+
+Add remote first
+`heroku git:remote -a damp-thicket-88805`
+Then apply sub folder path to push to heroku
+`git subtree push --prefix server heroku master`
+
 
 ### External References and Resources
 
