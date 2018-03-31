@@ -1,5 +1,6 @@
 ## APP [https://mabc224.github.io/node-okta-react-redux/](https://mabc224.github.io/node-okta-react-redux/)
 
+If request is not reponding, click here to re activatate server on [heroku](https://damp-thicket-88805.herokuapp.com/api). 
 ________________________
 
 
